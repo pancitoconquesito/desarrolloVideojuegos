@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand " href="#">
+      <div [ngSwitch]="activeId">
+        <img *ngSwitchCase="0" img class="rounded-circle" src="assets/controloA.png" width="30" height="30" alt="img pagina">
+        <img *ngSwitchCase="1" img class="rounded-circle" src="assets/runLogo.png" width="30" height="30" alt="img pagina">
+        <img *ngSwitchCase="2" img class="rounded-circle" src="assets/pipicu.png" width="30" height="30" alt="img pagina">
+        <img *ngSwitchCase="3" img class="rounded-circle" src="assets/lmm.png" width="30" height="30" alt="img pagina">
+        <img *ngSwitchCase="4" img class="rounded-circle" src="assets/fmc.png" width="30" height="30" alt="img pagina">
+        <img *ngSwitchCase="5" img class="rounded-circle" src="assets/a_00001.png" width="30" height="30" alt="img pagina">
+        <img *ngSwitchCase="6" img class="rounded-circle" src="assets/cuack.png" width="30" height="30" alt="img pagina">
+      </div>
+    </a>
+    <a class="navbar-brand text-white pr-5" href="#">Desarrollo de Videojuegos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!-- <ul class="navbar-nav nav-tabs" ngbNav [(activeId)]="activeId">-->
+      <ul ngbNav [(activeId)]="activeId" class="nav-tabs navnav">
+        <li class="nav-item px-2 mx-3" [ngbNavItem]="0"><a  ngbNavLink class="nav-link text-white" >
+            Inicio</a></li>  
+        <li class="nav-item px-2 mx-3" [ngbNavItem]="1"><a  ngbNavLink class="nav-link text-white" >
+            Gatuh Run</a></li>
+        <li class="nav-item px-2 mx-3" [ngbNavItem]="2"><a ngbNavLink class="nav-link text-white" href="#">
+            Purucu & Pipicu</a></li>
+        <li class="nav-item px-2 mx-3" [ngbNavItem]="3"><a ngbNavLink class="nav-link text-white" href="#">
+            Little Mutant Mouse</a></li>
+        <li class="nav-item px-2 mx-3" [ngbNavItem]="4"><a ngbNavLink class="nav-link text-white" href="#">
+            Full Metal Cat</a></li>
+        <li class="nav-item px-2 mx-3" [ngbNavItem]="5"><a ngbNavLink class="nav-link text-white" href="#">
+            Museos de Ciencias y Arte</a></li>
+        <li class="nav-item px-2 mx-3" [ngbNavItem]="6"><a ngbNavLink class="nav-link text-white" href="#">
+            Otros</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <div *ngIf="activeId==0">
+    <app-inicio></app-inicio>
+  </div>
+  <div *ngIf="activeId==1">
+    <app-gatuh-run></app-gatuh-run>
+  </div>
+  <div *ngIf="activeId==2">
+    <app-purucu></app-purucu>
+  </div>
+  <div *ngIf="activeId==3">
+    <app-lmm></app-lmm>
+  </div>
+  <div *ngIf="activeId==4">
+    <app-fmc></app-fmc>
+  </div>
+  <div *ngIf="activeId==5">
+    <app-museo></app-museo>
+  </div>
+  <div *ngIf="activeId==6">
+    <app-otros></app-otros>
+  </div>
+  
+  
+  

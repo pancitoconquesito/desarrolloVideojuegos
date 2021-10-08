@@ -1,0 +1,16 @@
+.img_g{
+    width: 100%;
+}
+.borde_A{
+    background-color: rgb(174, 165, 226);
+}
+.parteA{
+    background-color: rgb(248, 232, 239);
+}
+.parteB{
+    background: rgb(154,218,219);
+    background: linear-gradient(0deg, rgba(154,218,219,0) 0%, rgba(222,153,123,0.7847514005602241) 55%, rgba(208,199,81,1) 100%);
+    img{
+        border: double  white 1em;
+    }
+}
