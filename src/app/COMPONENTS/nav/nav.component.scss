@@ -27,3 +27,17 @@
 .dropdown-menu{
     background-color: #325d54 !important;
   }
+
+ .lineas{
+      color: white !important;
+ }
+
+ body > app-root > app-nav > nav > div > button > span{
+    color: white !important;
+    background-color: yellow !important;
+}
+
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+} 
