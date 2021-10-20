@@ -1,16 +1,29 @@
 .navnav{
     border:none;
-    li a:active{
+    width: 25%;
+    a:active{
         color:black;
         background-color: #2c5e80;
     }
-    li a:focus{
+    a:focus{
         color:black;
         background-color: #2c5e80;
     }
-    li a:visited{
+    a:visited{
         color:black;
         background-color: #2c5e80;
+    }
+    a:hover{
+        color:#00503c !important;
+        background-color: #ffbfd2;
     }
 }
+.active-link{
+    color:black;
+        background-color: #2c5e80;
+}
 
+
+.dropdown-menu{
+    background-color: #325d54 !important;
+  }

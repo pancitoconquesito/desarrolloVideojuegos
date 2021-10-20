@@ -13,4 +13,7 @@ export class NavComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  changeImage(n:number):void{
+    this.activeId=n;
+  }
 }
