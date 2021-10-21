@@ -1,6 +1,6 @@
 .navnav{
     border:none;
-    width: 25%;
+    width:50%;
     a:active{
         color:black;
         background-color: #2c5e80;
@@ -31,4 +31,12 @@
 .navbar-toggler{
     color: white !important;
     background-color: rgb(147, 177, 151) !important;
+}
+
+.btn_select{
+    width: 90% !important;
+}
+
+.desarrollo{
+    font-family: 'Macondo', cursive;
 }

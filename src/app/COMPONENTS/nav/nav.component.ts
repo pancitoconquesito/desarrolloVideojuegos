@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
   activeId:number=0;
+  dimImg:number=50;
+
   constructor() { }
 
   ngOnInit(): void {
