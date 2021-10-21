@@ -28,16 +28,7 @@
     background-color: #325d54 !important;
   }
 
- .lineas{
-      color: white !important;
- }
-
- body > app-root > app-nav > nav > div > button > span{
+.navbar-toggler{
     color: white !important;
-    background-color: yellow !important;
+    background-color: rgb(147, 177, 151) !important;
 }
-
-
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255,102,203);
-} 

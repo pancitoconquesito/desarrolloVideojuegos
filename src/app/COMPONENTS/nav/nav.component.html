@@ -13,17 +13,16 @@
   <div class="container-fluid">
     <!-- <a class="navbar-brand text-white text-bold" routerLink="inicio">Desarrollo Videojuegos</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon lineas text-white"></span>
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center align-item-center" id="navbarNavAltMarkup">
-      <div class="navbar-nav navnav  justify-content-between">
+      <div class="navbar-nav navnav justify-content-between">
 
 
         <a routerLinkActive="active-link" (click)="changeImage(0)" class="nav-link active text-white py-2 px-4 rounded" aria-current="page" routerLink="inicio">Inicio</a>  
         <div class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle text-white py-2 px-4 rounded" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Lista Juegos
-          </a>
+            Lista Juegos</a>
           <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
             <li><a routerLinkActive="active-link" (click)="changeImage(1)"  class="nav-link text-white p-2 m-2 rounded" routerLink="gatuhrun">Gatuh Run</a>  </li>
             <li><a routerLinkActive="active-link" (click)="changeImage(2)"  class="nav-link text-white p-2 m-2 rounded" routerLink="purucu">Purucu & Pipicu</a>  </li>
