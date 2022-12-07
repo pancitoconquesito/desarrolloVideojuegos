@@ -8,6 +8,8 @@ import { MuseoComponent } from './COMPONENTS/museo/museo.component';
 import { OtrosComponent } from './COMPONENTS/otros/otros.component';
 import { PurucuComponent } from './COMPONENTS/purucu/purucu.component';
 
+import { ValpoGameComponent } from './COMPONENTS/valpo-game/valpo-game.component';
+import { FMCFINALComponent } from './COMPONENTS/fmc-final/fmc-final.component';
 const routes: Routes = [
   {path:'', redirectTo: '/inicio', pathMatch:'full'},
   {path:'inicio', component:InicioComponent},
@@ -16,7 +18,10 @@ const routes: Routes = [
   {path:'lmm', component:LmmComponent},
   {path:'fmc', component:FmcComponent},
   {path:'museo', component:MuseoComponent},
-  {path:'otros', component:OtrosComponent}
+  {path:'otros', component:OtrosComponent},
+
+  {path:'valpo', component:ValpoGameComponent},
+  {path:'fmc_final', component:FMCFINALComponent}
 ];
 
 @NgModule({

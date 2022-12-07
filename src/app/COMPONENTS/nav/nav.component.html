@@ -12,6 +12,9 @@
     <img *ngSwitchCase="4" img class="rounded-circle" src="assets/fmc.png" width="{{dimImg}}" height="{{dimImg}}" alt="img pagina">
     <img *ngSwitchCase="5" img class="rounded-circle" src="assets/a_00001.png" width="{{dimImg}}" height="{{dimImg}}" alt="img pagina">
     <img *ngSwitchCase="6" img class="rounded-circle" src="assets/cuack.png" width="{{dimImg}}" height="{{dimImg}}" alt="img pagina">
+
+    <img *ngSwitchCase="7" img class="rounded-circle" src="assets/valpoLogo.png" width="{{dimImg}}" height="{{dimImg}}" alt="img pagina">
+    <img *ngSwitchCase="8" img class="rounded-circle" src="assets/portadaCuadrada.png" width="{{dimImg}}" height="{{dimImg}}" alt="img pagina">
   </div>
   <!-- </a> -->
   <div class="container-fluid">
@@ -29,12 +32,16 @@
           <a class="text-center nav-link dropdown-toggle text-white py-2 px-4 rounded" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Lista Juegos</a>
           <ul class="text-center dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-            <li><a routerLinkActive="active-link" (click)="changeImage(1)"  class="nav-link text-white p-2 m-2 rounded" routerLink="gatuhrun">Gatuh Run</a>  </li>
-            <li><a routerLinkActive="active-link" (click)="changeImage(2)"  class="nav-link text-white p-2 m-2 rounded" routerLink="purucu">Purucu & Pipicu</a>  </li>
-            <li><a routerLinkActive="active-link" (click)="changeImage(3)"  class="nav-link text-white p-2 m-2 rounded" routerLink="lmm">LMM</a>  </li>
-            <li><a routerLinkActive="active-link" (click)="changeImage(4)"  class="nav-link text-white p-2 m-2 rounded" routerLink="fmc">Full Metal Cat</a>  </li>
+            <li><a routerLinkActive="active-link" (click)="changeImage(8)"  class="nav-link text-white p-2 m-2 rounded" routerLink="fmc_final">FMC: Full Metal Cat</a>  </li>
+            <li><a routerLinkActive="active-link" (click)="changeImage(7)"  class="nav-link text-white p-2 m-2 rounded" routerLink="valpo">Un misterio en el Puerto</a>  </li>
             <li><a routerLinkActive="active-link" (click)="changeImage(5)"  class="nav-link text-white p-2 m-2 rounded" routerLink="museo">Museo de Ciencias y Artes</a>  </li>
+            <li><a routerLinkActive="active-link" (click)="changeImage(3)"  class="nav-link text-white p-2 m-2 rounded" routerLink="lmm">LMM</a>  </li>
+            <li><a routerLinkActive="active-link" (click)="changeImage(2)"  class="nav-link text-white p-2 m-2 rounded" routerLink="purucu">Purucu & Pipicu</a>  </li>
+            
+            <li><a routerLinkActive="active-link" (click)="changeImage(1)"  class="nav-link text-white p-2 m-2 rounded" routerLink="gatuhrun">Gatuh Run</a>  </li>
+            <li><a routerLinkActive="active-link" (click)="changeImage(4)"  class="nav-link text-white p-2 m-2 rounded" routerLink="fmc">Full Metal Cat</a>  </li>
             <li><a routerLinkActive="active-link" (click)="changeImage(6)"  class="nav-link text-white p-2 m-2 rounded" routerLink="otros">Otros</a>  </li>
+
           </ul>
         </div>
 

@@ -17,6 +17,9 @@ import { OtrosComponent } from './COMPONENTS/otros/otros.component';
 import { PurucuComponent } from './COMPONENTS/purucu/purucu.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { FMCFINALComponent } from './COMPONENTS/fmc-final/fmc-final.component';
+import { ValpoGameComponent } from './COMPONENTS/valpo-game/valpo-game.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +34,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MuseoComponent,
     NavComponent,
     OtrosComponent,
-    PurucuComponent
+    PurucuComponent,
+    //ValpoComponent,
+    //FmcFinalComponent,
+    FMCFINALComponent,
+    ValpoGameComponent
   ],
   imports: [
     BrowserModule,
